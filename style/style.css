@@ -15,6 +15,8 @@ img{
     width: 100%;
 }
 
+
+/* Header Begin */
 header{
     display: flex;
     justify-content: space-between;
@@ -32,9 +34,11 @@ header{
     width: 100%;
 }
 
-.img_title{
+.logo_title{
     max-width: 171px;
     width: 100%;
+    font-weight: 600;
+    font-size: 36px;
 }
 
 .menu{
@@ -43,12 +47,13 @@ header{
     align-items: center;
     max-width: 811px;
     width: 100%;
-    list-style: none;
 }
 
 .menu_item{
-    font-weight: 300;
+    font-weight: 400;
     font-size: 20px;
+    text-decoration: none;
+    color: #000;
 }
 
 .menu_link{
@@ -57,6 +62,139 @@ header{
     padding: 20px;
     max-width: 231px;
     width: 100%;
-    text-decoration: none;
+}
+
+/* Header End */
+
+/* Footer Begin */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 55px 60px 0;
+    border-radius: 10px 10px 0 0;
+    background-color: #292A32;
+}
+
+.footer_head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_title2{
+    max-width: 171px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 36px;
+    color: #fff;
+}
+
+.menu_footer{
+    max-width: 501px;
+    width: 100%;
+}
+
+.menu_item_footer{
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+}
+
+.social{
+    max-width: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social_link{
+    max-width: 30px;
+    width: 100%;
+    height: 30px;
+}
+
+.footer_info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 66px;
+}
+
+.footer_info_contacs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 332px;
+    width: 100%;
+    color: #fff;
+}
+
+.footer_info_contacs h4{
+    padding: 0 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 30px;
+    background-color: #0eec0e;
     color: #000;
 }
+
+.footer_info_contacs a{
+    margin-top: 27px;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+}
+.footer_info_contacs p{
+    margin-top: 27px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+}
+
+.footer_info_form{
+    display: flex;
+    justify-content: space-between;
+    padding: 58px 40px;
+    background-color: #292A32;
+    max-width: 634px;
+    width: 100%;
+}
+
+.form-email{
+    padding: 22px 35px;
+    border: solid #fff 1px;
+    border-radius: 20px;
+    font-weight: 300;
+    font-size: 20px;
+    background-color: #292A32;
+    color: #fff;
+    max-width: 285px;
+    width: 100%;
+}
+
+.form-but{
+    border-radius: 20px;
+    font-weight: 300;
+    font-size: 20px;
+    background-color: #0eec0e;
+    max-width: 249px;
+    width: 100%;
+}
+
+hr{
+    margin-top: 50px;
+}
+
+.police{
+    display: flex;
+    margin: 50px 0;
+}
+
+.police p{
+    padding-right: 40px;
+    font-weight: 300;
+    font-size: 20px;
+    color: #fff;
+}
+/* Footer End */
