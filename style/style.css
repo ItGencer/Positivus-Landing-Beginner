@@ -68,6 +68,70 @@ header{
 
 /* Footer Begin */
 
+.main_head{
+    display: flex;
+    flex-direction: column;
+}
+
+.main_head div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_head_title{
+    display: flex;
+    flex-direction: column;
+    max-width: 531px;
+    width: 100%;
+}
+
+.main_head_title h1{
+    font-weight: 700;
+    font-size: 60px;
+}
+.main_head_title p{
+    font-weight: 300;
+    font-size: 20px;   
+}
+.main_head_title input{
+    border-radius: 20px;
+    padding: 20px 35px;
+    background-color: #000;
+    color: #fff;
+    max-width: 264px;
+    width: 100%;
+    font-weight: 300;
+    font-size: 20px;  
+}
+
+.megaphone{
+    max-width: 600px;
+}
+
+.company{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.company li{
+    height: 48px;
+    width: auto;
+}
+
+.company img {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease; /* Додаємо плавний перехід для ефекту */
+}
+
+.company img:hover {
+    filter: grayscale(0%); /* Повертаємо кольори при наведенні */
+}
+/* Header End */
+
+/* Footer Begin */
+
 footer {
     display: flex;
     flex-direction: column;
