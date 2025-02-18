@@ -11,7 +11,7 @@ img{
 
 .block{
     margin: 60px auto 0;
-    max-width: 1240px;
+    max-width: 1300px;
     width: 100%;
 }
 
@@ -66,7 +66,7 @@ header{
 
 /* Header End */
 
-/* Footer Begin */
+/* Main Begin */
 
 .main_head{
     display: flex;
@@ -128,7 +128,154 @@ header{
 .company img:hover {
     filter: grayscale(0%); /* Повертаємо кольори при наведенні */
 }
-/* Header End */
+
+.services{
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+}
+
+.services_title{
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services_title h2{
+    padding: 0 10px;
+    background-color: #B9FF66;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.services_title p{
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.services_info{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.services_info > div{
+    display: flex;
+    justify-content: space-between;
+    max-width: 498px;
+    width: 100%;
+    height: 208px;
+    padding: 50px;
+    border: solid 1px #000;
+    border-radius: 40px;
+}
+
+.services_info div div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 221px;
+    width: 100%;
+    height: 210px;
+}
+
+.services_info div div h3{
+    padding: 0 7px;
+    border-radius: 15px;
+    background-color: #B9FF66;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.services_info div div a{
+    margin-top: 93px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000;
+}
+
+.services_info div div img{
+    padding-right: 15px;
+    max-width: 41px;
+}
+
+.service_img{
+    max-width: 210px;
+}
+
+.services_info > div:nth-child(2),
+.services_info > div:nth-child(5),
+.services_info div:nth-child(6) div h3{
+    background-color: #B9FF66;
+}
+.services_info div:nth-child(2) div h3,
+.services_info div:nth-child(3) div h3,
+.services_info div:nth-child(5) div h3{
+    background-color: #fff;
+}
+
+.services_info > div:nth-child(3),
+.services_info > div:nth-child(6){
+    background-color: #191A23;
+}
+.services_info div:nth-child(3) div a,
+.services_info div:nth-child(6) div a{
+    color: #fff;
+}
+
+.response{
+    margin-top: 123px;
+    padding: 60px;
+    border-radius: 45px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F3F3F3;
+    position: relative;
+}
+
+.response div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 500px;
+    width: 100%;
+    height: 227px;
+}
+
+.response h3{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.response p{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.response input{
+    padding: 20px 35px;
+    background-color: #000;
+    border-radius: 14px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.response img{
+    max-width: 359px;
+    position: absolute;
+    top: -28px;
+    right: 135px;
+}
+
+/* Main End */
 
 /* Footer Begin */
 
@@ -198,7 +345,7 @@ footer {
     border-radius: 10px;
     font-weight: 600;
     font-size: 30px;
-    background-color: #0eec0e;
+    background-color: #B9FF66;
     color: #000;
 }
 
@@ -241,7 +388,7 @@ footer {
     border-radius: 20px;
     font-weight: 300;
     font-size: 20px;
-    background-color: #0eec0e;
+    background-color: #B9FF66;
     max-width: 249px;
     width: 100%;
 }
