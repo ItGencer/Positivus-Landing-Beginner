@@ -275,6 +275,60 @@ header{
     right: 135px;
 }
 
+.studies_title{
+    margin-top: 164px;
+    display: flex;
+}
+
+.studies_title p:nth-child(1){
+    margin-right: 40px;
+    padding: 0 7px;
+    background-color: #B9FF66;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.studies_title p:nth-child(2){
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.studies_info{
+    margin-top: 80px;
+    display: flex;
+    justify-content:space-around;
+    padding: 70px 60px;
+    background-color: #000;
+    gap: 64px;
+}
+
+.studies_info div{
+    display: flex;
+    flex-direction: column;
+}
+
+.studies_info p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+}
+
+.studies_info a{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #B9FF66;
+    text-decoration: none;
+}
+
+.studies_info img{
+    max-width: 17px;
+}
+.studies_info hr{
+    margin-top: 0;
+}
+
 /* Main End */
 
 /* Footer Begin */
