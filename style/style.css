@@ -280,7 +280,8 @@ header{
     display: flex;
 }
 
-.studies_title p:nth-child(1){
+.studies_title p:nth-child(1),
+.working p:nth-child(1){
     margin-right: 40px;
     padding: 0 7px;
     background-color: #B9FF66;
@@ -289,7 +290,8 @@ header{
     font-size: 40px;
 }
 
-.studies_title p:nth-child(2){
+.studies_title p:nth-child(2),
+.working p:nth-child(2){
     font-weight: 400;
     font-size: 18px;
 }
@@ -327,6 +329,71 @@ header{
 }
 .studies_info hr{
     margin-top: 0;
+}
+
+.working{
+    margin-top: 140px;
+    display: flex;
+}
+
+.working_info{
+    margin-top: 68px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.working_info>div{
+    padding: 41px 60px;
+    border-radius: 30px;
+    border: solid 2px #000;
+}
+
+.working_info> div:nth-child(1) {
+    background-color: #B9FF66;
+}
+
+.working_info_title,
+.working_info_other{
+    display: flex;
+    justify-content: space-between;
+}
+
+.working_info_title div,
+.working_info_other div{
+    display: flex;
+    align-items: center;
+}
+
+.working_info_title h1,
+.working_info_other h1{
+    margin-right: 25px;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.working_info_title p,
+.working_info_other p{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.working_info_title img,
+.working_info_other img{
+    max-width: 58px;
+}
+
+.working_info hr{
+    margin: 30px 0;
+    height: 1px;
+    background-color: #000;
+
+}
+
+.working_info > div > p{
+    font-weight: 300;
+    font-size: 18px;
 }
 
 /* Main End */
