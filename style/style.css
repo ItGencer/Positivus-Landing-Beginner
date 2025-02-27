@@ -281,7 +281,8 @@ header{
 }
 
 .studies_title p:nth-child(1),
-.working p:nth-child(1){
+.working p:nth-child(1),
+.team p:nth-child(1){
     margin-right: 40px;
     padding: 0 7px;
     background-color: #B9FF66;
@@ -291,7 +292,8 @@ header{
 }
 
 .studies_title p:nth-child(2),
-.working p:nth-child(2){
+.working p:nth-child(2),
+.team p:nth-child(2){
     font-weight: 400;
     font-size: 18px;
 }
@@ -394,6 +396,88 @@ header{
 .working_info > div > p{
     font-weight: 300;
     font-size: 18px;
+}
+
+.team_section{
+    display: flex;
+    flex-direction: column;
+}
+
+.team{
+    margin-top: 152px;
+    display: flex;
+}
+
+.team_info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 80px;
+}
+
+.team_info>div{
+    padding: 40px 35px;
+    border-radius: 45px;
+    border: solid #000 1px;
+    display: flex;
+    flex-direction: column;
+    max-width: 330px;
+    width: 100%;
+}
+
+.team_info_title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.team_info_title_foto{
+    max-width: 106px;
+}
+
+.team_info_title div{
+    margin: 0 10px 0 20px;
+    align-self: flex-end;
+}
+
+.team_info_title h4{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.team_info_title p{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.team_info_title_icon{
+    max-width: 34px;
+    align-self: flex-start;
+}
+
+.team_info hr{
+    margin: 28px 0;
+}
+
+.team_info_text{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.team_see{
+    display: flex;
+    margin-top: 40px;
+    padding: 20px 76px;
+    background-color: #191A23;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    max-width: 117px;
+    width: 100%;
+}
+
+.team_section a{
+    align-self: flex-end;
 }
 
 /* Main End */
