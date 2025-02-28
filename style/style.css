@@ -282,7 +282,8 @@ header{
 
 .studies_title p:nth-child(1),
 .working p:nth-child(1),
-.team p:nth-child(1){
+.team p:nth-child(1),
+.testimonials-title p:nth-child(1){
     margin-right: 40px;
     padding: 0 7px;
     background-color: #B9FF66;
@@ -293,7 +294,8 @@ header{
 
 .studies_title p:nth-child(2),
 .working p:nth-child(2),
-.team p:nth-child(2){
+.team p:nth-child(2),
+.testimonials-title p:nth-child(2){
     font-weight: 400;
     font-size: 18px;
 }
@@ -479,6 +481,71 @@ header{
 .team_section a{
     align-self: flex-end;
 }
+
+.testimonials{
+    margin-top: 100px;
+}
+
+.testimonials-title{
+    display: flex;
+}
+
+.testimonials-info{
+    margin-top: 80px;
+    padding: 84px 150px 64px;
+    border-radius: 45px;
+    display: flex;
+    flex-direction: column;
+    background-color: #191A23;
+    color: #fff;
+}
+
+.testimonials-info_respone{
+    background-image: url("../img/bubble.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 48px 52px;
+    height: 343px;
+    font-weight: 300;
+    font-size: 32px;
+}
+
+.testimonials-info_name{
+    margin-top: 20px;
+    padding-left: 15%;
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.testimonials-info_name span{
+    font-weight: 500;
+    font-size: 20px;
+    color: #B9FF66;
+}
+
+.testimonials-info_chang{
+    margin-top: 124px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.testimonials-info_chang > img{
+    max-width: 43px;
+}
+
+.testimonials-info_chang div{
+    display: flex;
+    justify-content: space-between;
+    max-width: 210px;
+    width: 100%;
+}
+
+.testimonials-info_chang div img{
+    max-width: 25px;
+}
+
 
 /* Main End */
 
